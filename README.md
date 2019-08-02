@@ -25,8 +25,7 @@ Yearning for Python v1.4.7
 ## Community 社区
    Yearning 使用与交流          Q群: 103674679
    
-   Yearning2.0(Go) 使用交流     Q群: 747364310(beta版本阶段，不适用于生产环境)
-
+   Yearning2.0(Go) 使用交流     Q群: 747364310
 ## Feature 功能
 
 - SQL查询
@@ -54,6 +53,10 @@ Yearning for Python v1.4.7
 ## Install 安装及使用日志
 
 [使用及安装文档](http://guide.yearning.io)
+
+## Develop 二次开发
+
+[二次开发注意事项](https://guide.yearning.io/developer.html)
   
 ## About 联系方式
    
