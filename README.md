@@ -11,6 +11,8 @@
 
 ## Version 版本
 
+Yearning for Golang v2.0.0
+
 Yearning for Python v1.4.7
 
 ## Yearning2.0 前端项目 
