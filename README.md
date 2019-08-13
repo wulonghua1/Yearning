@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/version-v1.4.7-brightgreen.svg)  
 
 ##### MYSQL web端 SQL审核平台。
-## Attention
+## Attention请注意
  本项目(python版本Yearning)已不再维护。欢迎大家试用与体验Yearing-go项目
  
  [https://github.com/cookieY/Yearning-go](https://github.com/cookieY/Yearning-go)
