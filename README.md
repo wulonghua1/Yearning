@@ -1,7 +1,3 @@
-<p align="center">
-        <img  src="img/logo.jpg">
-</p>
-
 # Yearning SQL审核平台
 ![LICENSE](https://img.shields.io/badge/license-AGPL%20-blue.svg)
 ![](https://img.shields.io/badge/build-release-brightgreen.svg)  
