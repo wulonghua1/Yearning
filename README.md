@@ -10,6 +10,9 @@
  [https://github.com/cookieY/Yearning-go](https://github.com/cookieY/Yearning-go)
  该项目为Yearning后续维护项目
  
+ 如仍需使用python版本请将分支切换为python 
+ python版本文档地址  [http://python.yearning.io/](http://python.yearning.io/)
+ 
 ## Version 版本
 Yearning for Python v1.4.7
 
