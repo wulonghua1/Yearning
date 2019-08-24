@@ -18,12 +18,12 @@ p {
           </p>
           <div class="edittable-test-con">
             <Form :model="formItem" :label-width="100" ref="formItem" :rules="ruleValidate">
-              <Form-item label="机房:" prop="computer_room">
+              <Form-item label="机房:" prop="computer_room" filterable>
                 <Select v-model="formItem.computer_room" placeholder="请选择" @on-change="acquireCon">
                   <Option v-for="i in dataset" :value="i" :key="i">{{ i }}</Option>
                 </Select>
               </Form-item>
-              <Form-item label="连接名称:" prop="connection_name">
+              <Form-item label="连接名称:" prop="connection_name" filterable>
                 <Select
                   v-model="formItem.connection_name"
                   placeholder="请选择"
@@ -36,7 +36,7 @@ p {
                   >{{ i.connection_name }}</Option>
                 </Select>
               </Form-item>
-              <Form-item label="数据库库名:" prop="basename">
+              <Form-item label="数据库库名:" prop="basename" filterable>
                 <Select
                   v-model="formItem.basename"
                   placeholder="请选择"

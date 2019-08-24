@@ -16,13 +16,13 @@
             <div id="showImage" class="margin-bottom-10">
               <Form ref="formItem" :model="formItem" :rules="ruleValidate" :label-width="80">
                 <FormItem label="机房:" prop="computer_room">
-                  <Select v-model="formItem.computer_room" @on-change="ScreenConnection">
+                  <Select v-model="formItem.computer_room" @on-change="ScreenConnection" filterable="true">
                     <Option v-for="i in datalist.computer_roomlist" :key="i" :value="i">{{i}}</Option>
                   </Select>
                 </FormItem>
 
                 <FormItem label="连接名:" prop="connection_name">
-                  <Select v-model="formItem.connection_name" @on-change="DataBaseName">
+                  <Select v-model="formItem.connection_name" @on-change="DataBaseName" filterable="true">
                     <Option
                       v-for="i in datalist.connection_name_list"
                       :value="i.connection_name"
@@ -33,7 +33,7 @@
                 </FormItem>
 
                 <FormItem label="库名:" prop="basename">
-                  <Select v-model="formItem.basename">
+                  <Select v-model="formItem.basename" filterable="true">
                     <Option
                       v-for="item in datalist.basenamelist"
                       :value="item"
