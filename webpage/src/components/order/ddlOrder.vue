@@ -23,11 +23,12 @@ p {
                   <Option v-for="i in dataset" :value="i" :key="i">{{ i }}</Option>
                 </Select>
               </Form-item>
-              <Form-item label="连接名称:" prop="connection_name" filterable>
+              <Form-item label="连接名称:" prop="connection_name">
                 <Select
                   v-model="formItem.connection_name"
                   placeholder="请选择"
                   @on-change="acquireBase"
+                  filterable
                 >
                   <Option
                     v-for="i in tableform.sqlname"
@@ -36,7 +37,7 @@ p {
                   >{{ i.connection_name }}</Option>
                 </Select>
               </Form-item>
-              <Form-item label="数据库库名:" prop="basename" filterable>
+              <Form-item label="数据库库名:" prop="basename">
                 <Select
                   v-model="formItem.basename"
                   placeholder="请选择"
