@@ -36,7 +36,7 @@
                 <Button type="primary" @click="authdata()" style="width: 100%" size="large">登录</Button>
                 <Button type="success" @click="register = true" style="width: 100%;margin-top: 3%" size="large">用户注册
                 </Button>
-                <p style="margin-left: 5%;margin-top: 5%">2018 © Power By Cookie.Ye 使用chrome获得最佳体验</p>
+                <p style="margin-left: 5%;margin-top: 5%">2019 © Power By BLACKFISH 使用chrome获得最佳体验</p>
               </Form-item>
             </Form>
           </TabPane>
@@ -52,7 +52,7 @@
               </Form-item>
               <Form-item style="width: 100%">
                 <Button type="primary" @click="ldap_login()" style="width: 100%" size="large">登录</Button>
-                <p style="margin-left: 5%;margin-top: 5%">2018 © Power By Cookie.Ye 使用chrome获得最佳体验</p>
+                <p style="margin-left: 5%;margin-top: 5%">2019 © Power By BLACKFISH 使用chrome获得最佳体验</p>
               </Form-item>
             </Form>
           </TabPane>
